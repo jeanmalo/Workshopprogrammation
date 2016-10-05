@@ -955,3 +955,53 @@ Processing by ShowsController#index as HTML
 Completed 200 OK in 274ms (Views: 262.8ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/" for ::1 at 2016-10-05 15:21:00 +0200
+Started GET "/" for ::1 at 2016-10-05 15:21:00 +0200
+Started GET "/shows" for ::1 at 2016-10-05 15:21:00 +0200
+Started GET "/shows" for ::1 at 2016-10-05 15:21:00 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+Processing by ShowsController#index as HTML
+Processing by HomeController#index as HTML
+Processing by ShowsController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 875ms (Views: 872.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 895ms (Views: 874.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering shows/index.html.erb within layouts/application
+  [1m[36mShow Load (0.5ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  Rendered shows/index.html.erb within layouts/application (22.8ms)
+  Rendering shows/index.html.erb within layouts/application
+  [1m[36mShow Load (0.3ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  Rendered shows/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 1163ms (Views: 255.6ms | ActiveRecord: 1.4ms)
+
+
+Completed 200 OK in 1161ms (Views: 268.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/shows" for ::1 at 2016-10-05 15:21:04 +0200
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  [1m[36mShow Load (0.9ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  Rendered shows/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 109ms (Views: 105.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/shows" for ::1 at 2016-10-05 15:21:05 +0200
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  [1m[36mShow Load (0.8ms)[0m  [1m[34mSELECT "shows".* FROM "shows"[0m
+  Rendered shows/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 127ms (Views: 123.7ms | ActiveRecord: 0.8ms)
+
+
